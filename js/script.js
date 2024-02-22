@@ -17,5 +17,11 @@ for (let i = 1; i <= 100; i++) {
   box.className = 'box';
   box.textContent = output;
   
+  // 4. (Bonus 1) Aggiunta dell'elemento .box all'elemento contenitore
+  container.appendChild(box);
 
+// 5. (Bonus 2) background color per le box con contenuto Fizz, Buzz ed entrambe
+if (output ==="Fizz") box.style.backgroundColor = "rgb(12, 214, 161)"
+if (output==="Buzz") box.style.backgroundColor = "rgb(255, 209, 102)"
+if (output === "FizzBuzz") box.style.backgroundColor = "rgb(240, 70, 111)"
 }
