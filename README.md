@@ -8,5 +8,5 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 1. Creazione del contenitore
 2. Ciclo for
 3. Creazione dell'elemento
-4. Aggiunta elemento nel contenitore
-5. Colore sfondi degli elementi
+4. (Bonus 1) Aggiunta elemento nel contenitore
+5. (Bonus 2) Colore sfondi degli elementi
