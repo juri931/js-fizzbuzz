@@ -12,4 +12,10 @@ for (let i = 1; i <= 100; i++) {
   if (i % 5 === 0) output += "Buzz";
   if (output === "") output = i;
 
+  // 3. Creazione dell'elemento .box
+  let box = document.createElement('div');
+  box.className = 'box';
+  box.textContent = output;
+  
+
 }
